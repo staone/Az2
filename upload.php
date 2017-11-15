@@ -48,12 +48,12 @@ $collection = $db->files;
 }
 catch (MongoCursorException $e) {
     
-   //header("location:http://localhost:8012/MoodSync");
+   //header("location:http://localhost:8012/MoodSync3");
          break;
 }
 
 echo $ftemp;
 	move_uploaded_file($ftemp,$furl);
-	//header("location:http://localhost:8012/MoodSync");
+	//header("location:http://localhost:8012/MoodSync3");
 
 ?>

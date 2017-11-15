@@ -53,7 +53,7 @@ $("#delete").click(function(){
     foldername = $("#fname").val();
     path = "'.$dir."/".'"+foldername;
     $.get("addfolder.php?fname="+foldername+"&furl="+path);      
-    window.location = "http://localhost:8012/MoodSync";
+    window.location = "http://localhost:8012/MoodSync3";
     
   });
 

@@ -14,14 +14,14 @@ foreach ($cursor as $document) {
 		session_start();
 		$_SESSION['email'] = $email;
 		$_SESSION['uname'] = $document['uname'];
-		header('Location: http://localhost:8012/MoodSync');
+		header('Location: http://localhost:8012/MoodSync3');
 	}
 	else
 	{
-		header('Location: http://localhost:8012/MoodSync');
+		header('Location: http://localhost:8012/MoodSync3');
 	}
 }
 
-header('Location: http://localhost:8012/MoodSync');
+header('Location: http://localhost:8012/MoodSync3');
 
 ?>

@@ -26,7 +26,7 @@ $collection = $db->users;
 }
 catch (MongoCursorException $e) {
     
-         header("location:http://localhost:8012/MoodSync");
+         header("location:http://localhost:8012/MoodSync3");
          break;
 }
  
@@ -45,13 +45,13 @@ catch (MongoCursorException $e) {
         mkdir("users/".$email."/"."images");
       	mkdir("users/".$email."/"."videos");
       	mkdir("users/".$email."/"."docs");
- 	    	header("location:http://localhost:8012/MoodSync");       
+ 	    	header("location:http://localhost:8012/MoodSync3");       
       
         
   
 
 //////////////////////////////////////////////////////////////////
-  // header('Location: http://localhost:8012/MoodSync');
+  // header('Location: http://localhost:8012/MoodSync3');
    
 ?>
 

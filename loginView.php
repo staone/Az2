@@ -1,5 +1,5 @@
 <h2 class="col-sm-offset-6 col-sm-12">Login</h2>
-  <form class="form-horizontal" action="login.php" method="post" enctype="multipart/form-data">
+  <form class="form-horizontal" action="http://localhost:8012/MoodSync3/login.php" method="post" enctype="multipart/form-data">
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Email:</label>
       <div class="col-sm-10">

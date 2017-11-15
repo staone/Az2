@@ -13,7 +13,11 @@ $(document).ready(function() {
 
      $("#home").click(function(){
       window.location = "http://localhost:8012/MoodSync3";
-     }); 
+     });
+
+	$("#follow").click(function(){
+      $(".container").load("follow_form.php");
+     });
 
      $("#folder").click(function(){
       $(".container").load("folders.php");
